@@ -17,7 +17,11 @@
   "name": "website",
   "version": "1.0.0",
   "main": "siteConfig.js",
+<<<<<<< HEAD
   "author": "Victor Santos",
+=======
+  "author": "",
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
   "license": "ISC",
   "description": ""
 }

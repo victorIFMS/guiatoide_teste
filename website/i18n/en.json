@@ -3,12 +3,20 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
+<<<<<<< HEAD
     "tagline": "Guia de Utilização de nematoides entomopatogênicos para controle biologico",
+=======
+    "tagline": "Guia de Utilização de nematoides entomopatogênicos",
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
     "doc2": "Contato",
     "doc4": "Guia de preparo",
     "doc1": "Informações",
     "Página de informações": "Página de informações",
+<<<<<<< HEAD
     "doc3": "Materiais necessários",
+=======
+    "doc3": "Requisitos necessários",
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
     "doc5": "doc5",
     "Informações": "Informações",
     "Guia": "Guia",

@@ -6,6 +6,7 @@
     color: #2e8555;
     text-decoration: none;
 }
+<<<<<<< HEAD
 title{
     color: #2e8555;
     text-decoration: none; 
@@ -14,6 +15,18 @@ i{
  font-style: italic;
 }
 
+=======
+/* .card{
+ display: flex;
+ width: 100%;
+ padding: 5px;
+ margin: 0px 10px 10px 0;
+} */
+/* .dark{
+    background: #2e8555;
+    color: white;
+} */
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }

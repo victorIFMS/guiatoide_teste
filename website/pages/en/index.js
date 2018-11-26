@@ -77,7 +77,11 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer background="dark">
+<<<<<<< HEAD
         {/* <Logo img_src={imgUrl('logo_guiatoide.png')} />  */}
+=======
+        {/* <Logo img_src={imgUrl('docusaurus.svg')} />  */}
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
         <div className="inner">
           <ProjectTitle />
         </div>
@@ -107,17 +111,43 @@ const Features = props => (
         title: 'Aprovado',
       },
       {
+<<<<<<< HEAD
         content: 'Os nematoides combatem a praga ainda em sua fase larval ou de pupa.',
         image: imgUrl('kakuna2.png'),
+=======
+        content: 'Combate a praga ainda na fase de pupa.',
+        image: imgUrl('kakuna.png'),
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
         imageAlign: 'top',
         title: 'Incomparavel',
       },
       {
+<<<<<<< HEAD
         content: 'O conteúdo do guia facilita a compreensão do assunto',
         image: imgUrl('feature_guiatoide2.png'),
         imageAlign: 'top',
         title: 'Prático',
       }
+=======
+        content: 'The content of my second feature',
+        image: imgUrl('micro.png'),
+        imageAlign: 'top',
+        title: 'Feature Three',
+      },
+      {
+        content: 'The content of my second feature',
+        image: imgUrl('micro.png'),
+        imageAlign: 'top',
+        title: 'Feature Two',
+      },
+      {
+        content: 'The content of my second feature hbjdsuyatiivte The content of my second featureThe content of my second featureThe content of my second featureThe content of my second featureThe content of my second featureThe content of my second featureThe content of my second featureThe content of my second featureThe content of my second featureThe content of my second feature',
+ 
+        image: imgUrl('micro.png'),
+        imageAlign: 'top',
+        title: 'Feature Two',
+      },
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
       
     ]}
   </Block>
@@ -129,7 +159,17 @@ const FeatureCallout = props => (
   <div class='dark'
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
+<<<<<<< HEAD
       <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%" ></img>
+=======
+    {/* <h2>banner</h2> */}
+    {/* <MarkdownBlock>
+    ![Imagem linda](https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350)
+    </MarkdownBlock> */}
+ 
+      <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%" ></img>
+      <img src="https://images.pexels.com/photos/5808/food-healthy-vegetables-village.jpg?auto=compress&cs=tinysrgb&h=350" width="100%"></img>
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
   </div>
 );
   const slide = props => (
@@ -199,10 +239,17 @@ const Showcase = props => {
     
     <div className="productShowcaseSection paddingBottom">
       <h2>{"Pronto para utilizar o Guiatoide?"}</h2>
+<<<<<<< HEAD
       <a href={pageUrl('docs/doc1.html', props.language)}>Leia as informações</a>
       <div className="logos">{showcase}</div>
       <div className="more-users">
         <a className="button" href={pageUrl('docs/doc4.html', props.language)}>
+=======
+      <a href="doc2.md">Leia as informacoes</a>
+      <div className="logos">{showcase}</div>
+      <div className="more-users">
+        <a className="button" href={pageUrl('users.html', props.language)}>
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
           start {siteConfig.title} 
         </a>
       </div>
@@ -222,6 +269,13 @@ class Index extends React.Component {
             
         <HomeSplash language={language} />
         <div className="mainContainer">
+<<<<<<< HEAD
+=======
+         
+         
+           {/* <TryOut />
+          <Description /> */}
+>>>>>>> 3ae1d063040b895e4386be69a0c1ccca2bf12e7c
           <FeatureCallout />
           <Features />
           <Showcase language={language} />
