@@ -1,0 +1,14 @@
+{
+  "topicos": {
+    "Informações": ["doc1", "doc3"]  
+   
+
+  },
+  "docs-other": {
+    "Contato": ["doc2"]
+    
+  },
+  "docs-ther": {
+    "Guia": ["doc4"]
+  }
+}
